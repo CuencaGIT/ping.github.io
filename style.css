@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+main {
+  font-family: 'Libre Franklin';
+  font-size: 1.3125em;
+  text-align: center;
+}
+nav img {
+  margin: 5em 0.5em 0.5em 0.5em;
+  width: 3em;
+}
+h1 {
+  font-size: 1.3125em;
+}
+h1 strong {
+  color: hsl(0, 0%, 59%);
+  font-weight: 300;
+}
+main p {
+  font-size: 0.6em;
+}
+.entry {
+  display: flex;
+  flex-direction: column;
+}
+.entry input {
+  margin: 0.5em 3em;
+  padding: 0.9em;
+  border-radius: 2em;
+  border: 1px solid hsl(223, 100%, 88%);
+  opacity: 50%;
+  padding-left: 2em;
+}
+::placeholder {
+  color: hsl(0, 0%, 59%);
+}
+.entry a {
+  text-decoration: none;
+  color: white;
+  background-color: hsl(223, 87%, 63%);
+  margin: 0.5em 2.7em;
+  border-radius: 2em;
+  padding: 0.9em;
+  font-weight: 600;
+  font-size: 0.7em;
+}
+.imahe {
+  width: 15em;
+  margin: 5em auto;
+}
+.container {
+  margin: 2em;
+}
+.container i {
+  font-size: 0.5em;
+  padding: 1em 1em;
+  border: 1px solid hsl(223, 100%, 88%);
+  border-radius: 50%;
+  color: hsl(223, 87%, 63%);
+  width: 1em;
+  transition: ease 0.5s;
+}
+.Messeror p {
+  padding: 0;
+  margin: 0;
+}
+@media (min-width: 1440px) {
+  main {
+    font-size: 2em;
+    user-select: none;
+  }
+  nav img {
+    margin: 2em 0.5em 0.5em 0.5em;
+    width: 3em;
+  }
+  h1 {
+    font-size: 1.5em;
+    margin-bottom: 0em;
+  }
+  .entry {
+    display: inline;
+  }
+  .entry input {
+    padding: 1.3em 1em;
+    border-radius: 2em;
+    border: 1px solid hsl(0, 0%, 59%);
+    opacity: 50%;
+    padding-left: 2em;
+    width: 20em;
+    margin: 1em;
+    font-size: 0.5em;
+  }
+
+  .entry a {
+    text-decoration: none;
+    color: white;
+    background-color: hsl(223, 87%, 63%);
+    border-radius: 2em;
+    padding: 1.1em 3.5em;
+    font-weight: 600;
+    font-size: 0.5em;
+    margin: 0;
+  }
+  .imahe {
+    width: 20em;
+    display: block;
+  }
+  .container i:hover {
+    background-color: hsl(223, 87%, 63%);
+    cursor: pointer;
+    color: aliceblue;
+    transition: ease 0.5s;
+  }
+  .entry a:hover {
+    opacity: 80%;
+  }
+}
